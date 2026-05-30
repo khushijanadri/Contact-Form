@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="decorate.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+        <h1><br>DELHI PUBLIC SCHOOL</h1>
+        <h3>12th ward ,abc nagar,New DELHI-123456</h3>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Contact us</a></li>            
+            </ul>
+        </nav>
+    </header>
+    <div class="container" >
+    <form class="contain">
+        <h2>Contact Form</h2>
+        <p>*fields are compulsory</p>
+        <hr>
+        <p>Student Name:* <input type="text" name="yourname" id="yourname" placeholder="Dom Pandey" required></p>
+        <p>D.O.B:* <input type="date" name="dob" id="dob" required></p>
+        <fieldset>
+            <legend>
+                Gender*
+            </legend>
+            <p>
+                Male <input type="radio" name="gender" id="gender" required> Female <input type="radio" name="gender" id="gender" required>
+                Others <input type="radio" name="gender" id="gender" required>
+            </p>
+        </fieldset>
+        <P>Parent Phone Number:* <input type="number" name="Phone" id="Phone" placeholder="+91 123456789" required></P>
+        <p>Parent Name:* <input type="text" name="parentname" id="parentname" required></p>
+        <P>Parent Email Address:* <input type="email" name="parentemail" id="parentemail" required></P>
+        <p>Address:* <input type="text" name="address" id="address" required></p>
+        <p>
+            Choose Academics:* 
+            <select name="academics" id="academics" required>
+                <option value="">-Choose-</option>
+                <option value="">CBSE</option>
+                <option value="">Cambridge</option>
+                <option value="">NIOS</option>
+                <option value="">IB Programme</option>
+            </select>
+        </p>
+        <input type="submit" value="Submit Contact Form" required>
+    </form>
+    </div>
+</body>
+</html>
