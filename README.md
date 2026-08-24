@@ -1,2 +1,2 @@
 # Contact-Form
-A School contact form with HTML and CSS.
+A School contact form made using web fundamentals - HTML and CSS.
